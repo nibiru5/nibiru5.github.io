@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Mikayla Partridge -->
+<html lang="en">
+<head>
+	<title>Haunted Bakery Cake Delivery</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+	<div id="container">
+
+		<!-- Use the header area for the website name or logo -->
+		<header>
+			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo"></a>
+		</header>
+		
+		<!-- Use the nav area to add hyperlinks to other pages within the website -->
+		<nav>
+			<ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="cakes.html">Cakes</a></li> 
+                <li><a href="delivery.html">Delivery</a></li> 
+                <li><a href="customers.html">Customers</a></li> 
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+		</nav>
+        
+        <!-- Hero Image -->
+        <div id="hero" class="tablet-desktop">
+            <img src="images/hero-image.jpg" alt="left arm extended holding a weight">
+        </div>
+		
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+            
+            <div class="mobile">
+                
+                <p>Welcome to the realm of confectionary delights. At Haunted Bakery, we cast a spell on your taste buds with our devilishly delightful cakes and spooky treats.</p> 
+                
+                <h3>Cakes & Treats Delivered to you!</h3>
+                <p>Call Us Today to Order a Special Treat!</p>
+                <p class="tel-link"><a href="tel:8885554444">(888) 555-4444</a></p>
+            
+            </div>
+            
+            <div class="tablet-desktop">
+		
+                <p>Welcome to the realm of confectionary delights. At Haunted Bakery, we cast a spell on your taste buds with our devilishly delightful cakes and spooky treats.</p> 
+
+                <p>Don't be scared to explore our irresistable offerings! Our haunted menu features an enchanting variety of cakes, pastries, and treats that will make your taste buds scream with delight.</p> 
+
+                <p>To satisfy your sweet cravings, we offer professional cake delivery straight to your doorstep! Call us today to <span class="action">order the cake of your dreams!</span></p> 
+                
+            </div>
+            
+            <div class="grid">
+                
+                <figure class="frame">
+                        <a href="delivery.html"><img src="images/fitness-group.jpg" alt="group of fitness people"></a>
+                        <figcaption class="pic-text">Cake Delivery</figcaption>
+                </figure>
+                
+                <figure class="frame">
+                        <a href="cakes.html"><img src="images/food-heart.jpg" alt="healthy food in the shape of a heart"></a>
+                        <figcaption class="pic-text">Cake Selection</figcaption>
+                </figure>
+                
+                <figure class="frame">
+                        <a href="customers.html"><img src="images/personal-trainer.jpg" alt="personal trainer with a clipboard"></a>
+                        <figcaption class="pic-text">Customer Testimonials</figcaption>
+                </figure>
+            
+            </div>
+
+            <div id="form">
+                
+                <h2>Order your Dream Cake Below!:</h2> 
+            
+                <form class="form-grid"><!-- Start Form -->
+                    
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName" required>
+
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName" required> 
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Cake Request Info</legend>
+                        <p>Please describe the cake you are ordering:</p>   
+                        <textarea id="addressNotes" name="addressNotes" rows="2" cols="35"></textarea>
+
+                        <label for="reference">How are you Ordering this Cake?</label>
+                            <select name="reference" id="reference">
+                                <option value="delivery">Delivery</option>
+                                <option value="curbside">Curbside Pickup</option>
+                                <option value="schedule">Scheduled Delivery</option>
+                                <option value="other">Other</option>
+                            </select>
+
+                    </fieldset>
+                    
+                    <fieldset>
+                            <legend>Delivery Address</legend>
+
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address" required>
+
+                            <label for="city">City:</label>
+                            <input type="text" id="city" name="city" required>
+
+                            <label for="state">State:</label>
+                            <input type="text" id="state" name="state" required>
+
+                            <label for="addressNotes">Delivery Notes:</label>
+                            <textarea id="addressNotes" name="addressNotes" rows="2" cols="35"></textarea>
+                    </fieldset>
+                    
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                    
+                </form>
+            
+            </div>
+			
+		</main>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			<p>&copy; Copyright 2023. All Rights Reserved.</p>
+			<p><a href="mailto:booberry@hauntedbakery.com">booberry@hauntedbakery.com</a></p>
+		</footer>
+	
+	</div>
+	
+</body>
+</html>
